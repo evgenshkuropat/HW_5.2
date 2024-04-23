@@ -1,0 +1,24 @@
+.item {
+    width: 25%;
+    float: left;
+}
+.wrapper {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.buy-button {
+    display: block;
+    margin: 20px auto 0;
+    background-color: lightcoral;
+    color: white;
+    padding: 7px 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.price {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+}
